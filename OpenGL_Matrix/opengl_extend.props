@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_PropertySheetDisplayName>opengl_extend_debug_x64</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\WorkStation\VersionManagement_NO\cmake\LearnOpenGL-master-build\configuration;E:\WorkStation\VersionManagement_NO\cmake\LearnOpenGL-master\LearnOpenGL-master\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>E:/WorkStation/VersionManagement_NO/cmake/LearnOpenGL-master/LearnOpenGL-master/lib;E:/WorkStation/VersionManagement_NO/cmake/LearnOpenGL-master/LearnOpenGL-master/lib/$(Configuration);E:\WorkStation\VersionManagement_NO\cmake\LearnOpenGL-master-build;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;assimp.lib;freetype.lib;irrKlang.lib;Debug\STB_IMAGE.lib;Debug\GLAD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
